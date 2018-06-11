@@ -1,6 +1,12 @@
 
 console.log ('hello world');
-var nom = "kiro";
-var prénom = "mzdz";
-var ville = "lfm";
-alert("bonjour\n" + (nom)"\n" + (prénom) + (ville));
+/* EXO 1 / 2
+var nom = "dfre\n";
+var prénom = "mzdz\n";
+var ville = "lfm\n";
+alert("Nom: " + (nom) + "Prénom: "  + (prénom) + "Ville: " + (ville));
+*/
+/* EXO 3*/
+var saisie = prompt(); 
+alert("Bonjour !\n" + "Prénom: " + saisie);
+
