@@ -1,10 +1,10 @@
 console.log ('hello')
-/*function myfirstfonction (){
+function myfirstfonction (){
 	return true
 }
-alert (myfirstfonction())*/
+alert (myfirstfonction())
 
-/*var result = funk1 ();
+var result = funk1 ();
 
 function funk1 (a, b){
 	var ab = 2+5; 
@@ -35,7 +35,7 @@ function funk3()
 		alert ("nombre 1 est égal nombre2");
 	}
 }
- funk3();*/ 
+ funk3();
 /*EXO6*/
 var nom = prompt ("quel est ton Nom");
 var prenom = prompt ("quel est ton prenom");
@@ -68,6 +68,15 @@ else if( age <= 18 && genre == gen2 ){
 	}
 }
 funk5(); 
+
+/*EXO8*/
+function funk6(){
+	var add = nb1 + age
+	return add; 
+}
+var res = funk6()
+alert("l addition de votre nombre 1 et votre age est " + res);
+
 alert(fin);
 
 
